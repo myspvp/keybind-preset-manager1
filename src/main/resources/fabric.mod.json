@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "keybindmanager",
+  "version": "${version}",
+  "name": "Keybind Preset Manager",
+  "description": "Multi Key Bindings companion mod to save, load, and manage keybind profiles.",
+  "authors": ["mys"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mys.keybindmanager.KeybindManagerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
